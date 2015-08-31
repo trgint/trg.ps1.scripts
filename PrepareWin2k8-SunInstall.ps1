@@ -59,7 +59,7 @@ Write-Host -ForegroundColor Green "Downloading 7zip installer script... "
 $wc.DownloadFile("http://www.7-zip.org/a/7z920-x64.msi","$env:TEMP\7z.msi")
 
 Write-Host -ForegroundColor Green "Running 7zip installer script in background... "
-& "$env:TEMP\7z.msi /passive"
+& "$env:TEMP\7z.msi" "/passive"
 
 #download & run npp installer
 Write-Host -ForegroundColor Green "Downloading npp installer... "

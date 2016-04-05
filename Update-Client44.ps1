@@ -15,7 +15,7 @@ $userID  = "LAS"        #SQL User for Vision/Sun
 $encPass = "KEKKIP"     #encrypted password for Vision/Sun
 
 #initialize settings hashtable
-$SS4dict = @{ "SS4:DSN"    = $DSN; "SS4:Database"    = $SUNDB; "SS4:UserID"    = $userID; "SS4:Password"    = $encPass;}
+$SS4dict = @{ "SS4:DSN"    = $DSN; "SS4:Database"    = $SUNDB; "SS4:UserID"    = $userID; "SS4:Password"    = $encPass; "SS5:Enabled" = $false}
 $QAdict =  @{ "Vision:DSN" = $DSN; "Vision:Database" = $VISIONDB; "Vision:UserID" = $userID; "Vision:Password" = $encPass;}
 
 
